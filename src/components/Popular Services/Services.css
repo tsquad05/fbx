@@ -1,0 +1,27 @@
+.services {
+  padding-block: 4rem;
+}
+.servicesHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px 10px;
+}
+.services--explore {
+  background-color: var(--color-primary) !important;
+  color: white !important;
+}
+
+@media screen and (max-width: 600px) {
+  .servicesHeader {
+    flex-direction: column;
+  }
+}
+
+.swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal {
+  left: initial !important;
+}
+
+.sliderDetails {
+  background-color: white;
+}
