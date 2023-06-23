@@ -9,6 +9,7 @@ import image2 from "../../images/S22.jpg";
 import image3 from "../../images/Blacka54.jpg";
 
 import image4 from "../../images/person_1-min.jpg";
+import image5 from "../../images/person_3-min.jpg";
 
 import TinySlider from "tiny-slider-react";
 import "tiny-slider/dist/tiny-slider.css";
@@ -221,8 +222,8 @@ function PopularItems() {
               <div className="item">
                 <div className="testimonial">
                   <img
-                    src="images/person_3-min.jpg"
-                    alt="Image"
+                    src={image5}
+                    alt="pict"
                     className="img-fluid rounded-circle w-25 mb-4"
                   />
                   <div className="rate">
