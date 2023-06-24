@@ -1,0 +1,35 @@
+.slider--container {
+}
+.slider--container--item {
+  display: grid;
+  grid-template-areas:
+    "ProfilePic  ProfilePic  ProfilePic "
+    "Name    Name    Name     "
+    "Description Description Description"
+    "role    role    role     ";
+  justify-content: center;
+  align-items: center;
+  width: min(38%);
+  padding: 24px 10px;
+  margin-block: 10px;
+  border-radius: 2rem;
+  margin-inline: auto;
+  text-align: center;
+}
+.slider--container--item * {
+  justify-self: center;
+}
+.slider--container--item img {
+  width: 7.5rem;
+  border-radius: 5rem;
+  grid-area: ProfilePic;
+}
+.slider--container--item--name {
+  grid-area: Name;
+}
+.slider--container--item q {
+  grid-area: Description;
+}
+.slider--container--item--role {
+  grid-area: role;
+}

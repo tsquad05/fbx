@@ -1,0 +1,5 @@
+.HeroContainer {
+  width: 100%;
+  background-color: #001025;
+  height: max(300px, 50vh);
+}
