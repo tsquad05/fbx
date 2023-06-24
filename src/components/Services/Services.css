@@ -1,5 +1,64 @@
+* {
+  box-sizing: border-box;
+}
+.requestContainer {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+}
 .HeroContainer {
   width: 100%;
   background-color: #001025;
   height: max(300px, 50vh);
+}
+.heroText {
+  color: white;
+}
+.heroText a {
+  text-decoration: none;
+  color: white;
+}
+
+.heroText span {
+  color: grey;
+}
+
+.sliderContainer {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  overflow: hidden;
+  background-color: #fff;
+}
+.thumbnailCon {
+  width: 100%;
+  height: 200px;
+  border-radius: 0;
+  padding-inline: 20px;
+  padding-block-start: 10px;
+  overflow: hidden;
+}
+.thumbnailCon > img {
+  width: 100%;
+}
+.sellerDetails,
+.details,
+button {
+  padding-inline: 20px;
+}
+.sellerDetails {
+  padding-block: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.rating {
+  margin-left: auto;
+}
+.sellerDetails > img {
+  width: 3rem;
+  border-radius: 2em;
+  padding-inline: 5px;
 }
